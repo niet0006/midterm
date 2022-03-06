@@ -87,7 +87,7 @@ nav li:nth-child(1) a{
 
 .header-container{
     margin: 0 auto;
-    width: 45%;
+    width: 70%;
     display:block;
 }
 
@@ -104,9 +104,63 @@ nav li:nth-child(1) a{
 }
 
 .banner-icons{
-    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    
+}
+.banner-icons p{
+ line-height: 30px;
+
 }
 
-.icon{}
-    background-color: aqua;
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+
+}
+
+.banner-icons p{
+    font-size: 17px;
+    color:#26a682;
+
+}
+
+ .button{
+    text-align: center;
+    margin-bottom: 60px;
+    
+    
+    
+}
+
+button{
+    height: 50px;
+    width: 100%;
+    border-radius:16px;
+    border: none;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.4);
+    background-color: #26a682;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner-image img{
+ width: 100%;
+}
+
+.button-container{
+    display: none;
+}
+
+
+/* -----------------End Header--------------------- */
+
+.discover-container img{
+width: 100%;
 }
