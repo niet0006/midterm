@@ -177,22 +177,19 @@ nav li:nth-child(1) a{
 }
 
 /* --------------Hiding the images for mobile------------------- */
-.services-container{
-    width: 80%;
-    margin: 0 auto;
-}
 
 
 
-.services-container h4{
+
+.section-services-two h4{
     font-size: 32px;
     font-weight: 600;
-    color: #3c3b3a;
+    color: #3c3b3a; 
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.services-container h5{
+.section-services-two h5{
     font-size: 24px;
     font-weight: 200;
     color: #26a682;
@@ -200,7 +197,120 @@ nav li:nth-child(1) a{
     margin-bottom: 15px;
 }
 
-.services-container p{
+.section-services-two p{
     line-height: 30px;
 }
 
+.break-container,.friends-container, .services-container, .climb-container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.friends-maincontainer, .climb-maincontainer{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}
+
+/* --------------Styling section services------------------- */
+
+.subscribe-button{
+    background-color: #3c3b3a;
+    height: 120px;
+}
+
+.subscribe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.subscribe-container h3{
+    font-weight: 500;
+    font-size: 21px;
+    color:#f2f2f2;
+}
+
+.subscribe-container button{
+    height: 40px;
+    margin: 10px;
+    width: 40%;
+    border-radius:40px;
+    border: #26a682;
+    background-color: #26a682;
+    color: #f2f2f2;
+}
+
+
+/* --------------Subscribe Button------------------- */
+
+.section-sponsors{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sponsors-tittle{
+    margin-top: 40px;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logos-sponsors{
+    background-color: #26a682;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos-sponsors img{
+    width: 70%;
+    padding: 20px;
+}
+
+/* --------------End Brands Logos------------------ */
+footer{
+    background-color: #3c3b3a;
+    margin-top: 25px;
+   
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.icons-container p{
+    font-size: 24px;
+    text-align: center;
+    color: #f2f2f2;
+    padding-bottom: 5px;
+}
+
+.icons-container{
+    margin-left: 20%;
+    flex-grow: 8;
+    text-align: center;
+}
+
+.arrow-icon{
+    flex-grow: 1;
+    padding-top: 10px;
+    text-align: center;
+}
+.arrow-icon img{
+    width: 20px;
+
+}
+.arrow-icon p{
+    color: #f2f2f2;
+    font-size: 9px;
+}
