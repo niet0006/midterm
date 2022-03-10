@@ -218,19 +218,19 @@ h3{
 }
 
 .president-image img{
-    width:100px;
-    height: 1 00px;
+    width:175px;
+    height:175px;
     object-fit:cover;
     border-radius:50%;
 }
 
-.president-role{
+.president-image{
     text-align: center;
     margin: 0 auto;
     
 }
 
-.president-role h4{
+.president-image h4{
     display: inline-block;
     color: #f2f2f2;
     font-size: 24px;
@@ -322,17 +322,18 @@ footer{
     flex-basis: 15%;
     padding:px;
     margin-left: 64px;
-   
+  
 }
 
 nav ul{
-    
-    display: flex;
-    align-items: center;
+    display: flex;    
     justify-content: flex-end;
-    
-}
+    }
 
+
+.menu-options{
+    flex-basis: 30%;
+}
 
 .banner-icons{
     display: flex;
@@ -403,6 +404,10 @@ button
 }
 
 /*-------------End discover section------------------*/
+.section-president{
+    display: f;
+}
+
 .president-maincontainer{
     display: flex;
     width: 80%;
@@ -417,6 +422,7 @@ button
 }
 
 .president-image img{
+    margin: 0 auto;
     height: 200px;
     width: 200px;
     padding-bottom: 20px;
@@ -431,6 +437,7 @@ button
     display: inline-block;
     width: 200px;
     text-align: center;
+  
 }
 
 .president-quote p{
@@ -452,3 +459,119 @@ button
     height: 45px;
 
 }
+}
+
+@media only screen and (min-width:  1260px){
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px
+    ;
+}
+
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    flex-basis:45% ;
+}
+
+.banner-info .button{
+    align-self: flex-start;
+}
+
+.button-container img{
+    height: 40px;
+}
+
+/*-------------End Header------------------*/
+.section-discover{
+    background-color: #F2F2F2;
+    height: 500px;
+}
+.discover-maincontainer{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 60px;
+
+}
+
+.discover-container{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    
+}
+
+.discover-container img{
+width: 1000px;
+height: 338px;
+}
+
+.discover-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.discover-info button{
+margin-top: 16%;
+    
+} 
+/*-------------End Section Discover------------------*/
+.section-president{
+    margin-top: 0px;
+}
+
+.president-maincontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 243px;
+    gap: 200px;
+    
+}
+.president-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap
+    ;
+    
+}
+/*-------------End Section President------------------*/
+.section-discover-two{
+    
+    height: 500px;
+}
+.discover-two-maincontainer{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 60px;
+
+}
+
+.discover-two-container{
+    display: flex;
+    flex-direction:row;
+    flex-direction: row-reverse;
+    gap: 50px;
+    
+}
+
+.discover-two-container img{
+width: 1000px;
+height: 338px;
+}
+
+.discover-two-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.discover-two-info button{
+margin-top: 9%;
+    
+
+}
+
