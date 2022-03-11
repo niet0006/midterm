@@ -114,10 +114,6 @@ nav ul{
     
 }
 
-.banner-icons i:hover{
-    transform: rotate(360deg);
-}
-
 
 .banner-icons p{
  line-height: 30px;
