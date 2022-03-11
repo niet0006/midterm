@@ -74,14 +74,17 @@ nav a {
     
 }
 
+nav a:hover{
+    transform: scale(1.5);
+    color: #26a682;
+
+}
+
 nav ul{
     padding-bottom: 15px;
 }
 
-nav li:nth-child(1) a{
-    font-size: 18px;
-    font-weight: bold;
-}
+
 
 /* -----------------End Nav bar--------------------- */
 
@@ -110,6 +113,12 @@ nav li:nth-child(1) a{
     grid-template-columns: repeat(2,2fr);
     
 }
+
+.banner-icons i:hover{
+    transform: rotate(360deg);
+}
+
+
 .banner-icons p{
  line-height: 30px;
 
@@ -148,7 +157,27 @@ button{
     color: white;
     font-size: 32px;
     font-weight: bold;
+    animation: zoom 2s ease-out infinite;
+
 }
+
+@keyframes zoom {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  button:hover{
+      background-color: #3c3b3a;
+  }
+/* -----------------End animation of buttom for zoom--------------------- */
+
 
 .banner-image img{
  width: 100%;

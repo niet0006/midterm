@@ -74,14 +74,16 @@ nav a {
     
 }
 
+nav a:hover{
+    transform: scale(1.5);
+    color: #26a682;
+
+}
+
 nav ul{
     padding-bottom: 15px;
 }
 
-nav li:nth-child(1) a{
-    font-size: 18px;
-    font-weight: bold;
-}
 /* ----------------End Nav Bar--------------------- */
 
 .header-info{
@@ -378,7 +380,7 @@ iframe{
 }
 
 .location-container iframe{
-    width: 50%px;
+    width: 50%;
     height: 400px;
 }
 }
