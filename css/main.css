@@ -320,7 +320,7 @@ footer{
 }
 .menu-logo{
     flex-basis: 15%;
-    padding:px;
+    
     margin-left: 64px;
   
 }
@@ -403,10 +403,6 @@ button
 
 }
 
-/*-------------End discover section------------------*/
-.section-president{
-    display: f;
-}
 
 .president-maincontainer{
     display: flex;
