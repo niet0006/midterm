@@ -117,7 +117,7 @@ nav li:nth-child(1) a{
 form{
     background-color: #26a682;
     border-radius:10px;
-    height: 546px;
+    height: 600px;
 }
 
 form h2{
@@ -154,6 +154,11 @@ form input{
     text-align: center;
     width: 100%;
     margin: 0 auto;
+}
+
+.contact-message input{
+    height: 100px;
+    text-align: start;
 }
 
 form button{
@@ -193,6 +198,7 @@ form button{
     line-height: 45px;
 }
 
+/* ----------------End Location Info--------------------- */
 
 footer{
     background-color: #3c3b3a;
@@ -236,4 +242,96 @@ footer{
     
 }
 
-/* ----------------End foote--------------------- */
+/* ----------------End footer--------------------- */
+@media only screen and (min-width:  760px) {
+    
+    .header-menu{
+        display: flex;
+        align-items:center;
+        width: 100%;
+        gap: 40%;
+    }
+    
+    .menu-logo img{
+        width: 80px;
+       
+    }
+    .menu-logo{
+        flex-basis: 15%;
+        
+        margin-left: 64px;
+      
+    }
+    
+    nav ul{
+        display: flex;    
+        justify-content: flex-end;
+        }
+    
+    
+    .menu-options{
+        flex-basis: 30%;
+    }
+/* ----------------End Navegation Bar--------------------- */
+
+    .tittle-info h2{
+        margin-top: 60px;
+        font-size: 72px;
+        
+    }
+
+    .tittle-info p{
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .tittle-info img{
+        height: 305px;
+    }
+
+    form{
+       
+        border-radius:30px;
+        height: 800px;
+    }
+    
+    form h2{
+        font-size: 72px;
+    }
+
+    form label{
+        font-size: 24px;
+        padding-top: 12px;
+        padding-left: 50px;
+    }
+
+    form input{
+        padding-top: 20px;
+    }
+
+    .button-container{
+        display: block;
+        width: 210px;
+        height: 65px;
+        text-align: end;
+        padding-left: 350px;
+    }
+    
+/* ----------------End Form--------------------- */
+
+.location-info h2{
+    font-size: 72px;
+}
+
+.location-info h3{
+    font-size: 40px;
+    padding-bottom: 20px
+}
+
+.location-info p{
+    font-size: 18px;
+}
+
+iframe{
+    height: 500px;
+}
